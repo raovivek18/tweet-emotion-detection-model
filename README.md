@@ -58,21 +58,19 @@ The model is deployed as a **Streamlit** web application:
 ```bash
 git clone https://github.com/raovivek18/tweet-emotion-detection-model
 cd tweet-emotion-detection-model
-exit
+```
 
-2. Installation:
-Install dependencies
+### 2. Installation:
+Install dependencies:
 Navigate to the project directory and install the required Python dependencies:
-
-bash
-Copy code
+```bash
 pip install -r requirements.txt
-exit
+```
 
-3. Train the model:
-Run the Text_Emotion_Detection.ipynb notebook to train the model.
+### 3. Train the model:
+Run the `Text_Emotion_Detection.ipynb` notebook to train the model.
 
-4. Run the application:
-bash
-Copy code
+### 4. Run the application:
+```bash
 streamlit run app.py
+```
